@@ -1,0 +1,41 @@
+{% load tailwind_tags %}
+<!DOCTYPE html>
+
+
+<head>
+    {% tailwind_css %}
+    {% load static %}
+
+    <title> Steven's Chess Game </title>
+   
+</head>  
+{% include "nav.html" %}
+
+
+    <center><h1 text-blue-500>~About Me~</h1></center>
+
+    <center>
+<body>
+
+
+
+  
+    <p class = "text-ceter"> Hey my name is Steven Mendez, I am Mexican Colombian and I am on my last year of college. Some of my hobbies
+        include, fishing, gaming, snowboarding and hiking. Somethng cool about me is that I lived in Mexico for over 12
+        years </p>
+    <p> Some of my goals include, finishing college, getting a job, and working from home. another one is investing in
+        real estate. </p>
+
+    <img src="{% static 'IMG_2449.JPG'%}" alt="myPic" width="500" height="400">
+
+
+    <pre>
+
+	</pre>
+</center>
+
+</body>
+
+</html>
+
+{% include "foot.html" %}
